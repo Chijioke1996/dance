@@ -1,0 +1,28 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    flex-direction: column;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.stuffs{
+    height: 1046px;
+    width: 100%;
+    background: url(../images/pattern-background-mobile.svg);
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    margin-top: -160%;
+}
+
+.container{
+    margin-top: -16%;
+}
+
+.pics{
+    margin-top: -55%;
+}
